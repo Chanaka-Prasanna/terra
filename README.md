@@ -1,50 +1,24 @@
-# Welcome to your Expo app 👋
+# Terra - Share & Explore Videos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Terra is a modern video-sharing mobile application built using the latest version of React Native Expo. The app allows users to upload videos with thumbnails and descriptions, search for videos by title, and interact with videos by liking them. It features a powerful backend supported by Appwrite, providing secure authentication, database management, and media storage.
 
-## Get started
+## Features
+- **Video Uploading**: Users can upload videos along with a thumbnail and a description.
+- **Search Functionality**: Search videos based on their title, enabling quick content discovery.
+- **Video Interaction**: Users can like videos, providing engagement and feedback on shared content.
+- **User Profiles**: Manage your profile and view other users' profiles.
+- **Authentication**: Sign up and log in with a secure authentication system powered by Appwrite.
+- **Appwrite Integration**: Appwrite services handle authentication, databases for user and video data, and buckets for storing videos and thumbnails.
+- **File-Based Routing**: Implemented the latest version of React Native Expo with file-based routing similar to Next.js, making navigation easy to manage and scalable.
 
-1. Install dependencies
-
+## Technologies Used
+- **Frontend**: React Native Expo (latest version), including file-based routing.
+- **Backend**: Appwrite (Backend as a Service), handling:
+  - **Authentication**: Secure user login and registration.
+  - **Database**: For storing video data, descriptions, and user profiles.
+  - **Buckets**: For video and thumbnail storage.
+  
+## How to Run the Project Locally
+1. Clone the repository:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/Chanaka-Prasanna/terra.git
