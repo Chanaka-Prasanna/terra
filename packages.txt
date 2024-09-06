@@ -1,0 +1,15 @@
+for initial configurations -npx create-expo-app@latest [your-app-name] --template blank@latest  
+
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+npm install --save-dev tailwindcss@3.3.2
+npm i nativewind - https://www.nativewind.dev/quick-starts/expo
+npx tailwindcss init
+Also make sure to change this app/**/*. for accepting files in tailwind config.js content field
+npx expo install react-native-appwrite react-native-url-polyfill
+link for above one - https://github.com/appwrite/sdk-for-react-native
+---- com.chanaka.terra - 
+
+
+npm i react-native-animatable expo-av  ----> Expo av for playing videos
+npm install expo-document-picker --- this is not used. instead we used below package
+npm install expo-image-picker
