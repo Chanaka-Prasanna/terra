@@ -5,8 +5,8 @@ Terra is a modern video-sharing mobile application built using the latest versio
 ## Features
 - **Video Uploading**: Users can upload videos along with a thumbnail and a description.
 - **Search Functionality**: Search videos based on their title, enabling quick content discovery.
-- **Video Interaction**: Users can like videos, providing engagement and feedback on shared content.
-- **User Profiles**: Manage your profile and view other users' profiles.
+- **Video Interaction**: Users can like videos.
+- **User Profiles**: View your profile.
 - **Authentication**: Sign up and log in with a secure authentication system powered by Appwrite.
 - **Appwrite Integration**: Appwrite services handle authentication, databases for user and video data, and buckets for storing videos and thumbnails.
 - **File-Based Routing**: Implemented the latest version of React Native Expo with file-based routing similar to Next.js, making navigation easy to manage and scalable.
